@@ -351,3 +351,6 @@ main section .columna:hover .marco, main section .columna:hover img {
     color: var(--color-principal);
     font-weight: bold;
 }
+.article-text p{
+    line-height: 1.5em;
+}
