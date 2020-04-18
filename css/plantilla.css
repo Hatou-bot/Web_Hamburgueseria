@@ -118,6 +118,9 @@ header nav ul li .activo {
         display: inline;
 
     }
+    header nav ul li a {
+        border-bottom: 1px solid #aaa;
+    }
 }
 @media(min-width: 62.750em) {
     header .hamburguesa {
@@ -136,8 +139,16 @@ header nav ul li .activo {
     header nav ul li a {
         padding: 0.8em 0;
         text-align: center;
-        border-bottom: 0px ;
     }
+    /*header nav ul li a {
+        display: block;
+        padding: 1.250em;
+        text-align: center;
+        text-decoration: none;
+                
+
+        color: #aaa;
+    }*/
 }
 /*Inicio footer*/
 footer {
@@ -354,4 +365,7 @@ main section .columna:hover .marco, main section .columna:hover img {
 }
 .article-text p{
     line-height: 1.5em;
+}
+@media(min-width: 48.000em){
+    
 }
