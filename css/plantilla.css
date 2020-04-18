@@ -13,6 +13,7 @@
 :root{
     --color-principal: #fa573a;
     --color-secundario: #21242e;
+    --color-principal-transparencia: rgba(250, 87, 58, 0.75);
     --ancho-maximo: 1100px;
     --fuentePrincipal: 'Montserrat', sans-serif;
     --fuenteSecundaria: 'Handlee', cursive;
@@ -326,7 +327,7 @@ main section .columna:hover .marco, main section .columna:hover img {
 .blog-date {
     position: absolute;
     align-items: center;
-    background-color: rgb(250, 87, 58, 0.75); 
+    background-color: var(--color-principal-transparencia); 
     width: 5em;
     height: 5em;
     text-align: center;
