@@ -254,7 +254,7 @@ main section .underline span {
     display: block;
 }
 main section .row {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding: 0 0.825em;
 }
 main section .row article {
@@ -291,12 +291,13 @@ main section article h3 {
     
 }
 @media(min-width: 62.750em){
+    main section .row {
+        flex-wrap: nowrap;
+    }
     main section .row article {
-        width: 33.33%;
+        width: 50%;
     }
-    main section .row article:last-child{
-        width: 33.33%;
-    }
+
 }
 /*Main section About us*/
 main section .row .columna {
@@ -359,5 +360,8 @@ main section .columna:hover .marco, main section .columna:hover img {
     line-height: 1.5em;
 }
 @media(min-width: 48.000em){
-    
+    .blog-article{
+        flex-wrap: wrap;
+        width: 50%;
+    }
 }
