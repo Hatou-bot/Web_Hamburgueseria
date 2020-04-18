@@ -320,3 +320,23 @@ main section .columna:hover .marco, main section .columna:hover img {
     }
 }
 /*Our Blog*/
+/*.blob-picture{
+    position: absolute;
+}*/
+.blog-date{
+    position: absolute;
+    align-items: center;
+    background-color: rgb(250, 87, 58, 0.75); 
+    width: 5em;
+    height: 5em;
+    text-align: center;
+    line-height: 2em;
+}
+.blog-date p{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
