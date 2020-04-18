@@ -288,9 +288,7 @@ main section article h3 {
         border-bottom: 0px;
         margin-bottom: 1em;
     }
-    main section .row article:last-child{
-        width: 100%;
-    }
+    
 }
 @media(min-width: 62.750em){
     main section .row article {
