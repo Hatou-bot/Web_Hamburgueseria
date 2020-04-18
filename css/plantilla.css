@@ -99,6 +99,7 @@ header nav .row {
 }
 header nav ul {
     width: 100%;
+    border-bottom: 0px;
 }
 header nav ul li a {
     display: block;
@@ -106,6 +107,7 @@ header nav ul li a {
     text-align: center;
     text-decoration: none;
     color: #aaa;
+    border-bottom: 0px;
 }
 header nav ul li a:hover {
     color: var(--color-principal)
@@ -139,16 +141,8 @@ header nav ul li .activo {
     header nav ul li a {
         padding: 0.8em 0;
         text-align: center;
+        border-bottom: 0px;
     }
-    /*header nav ul li a {
-        display: block;
-        padding: 1.250em;
-        text-align: center;
-        text-decoration: none;
-                
-
-        color: #aaa;
-    }*/
 }
 /*Inicio footer*/
 footer {
