@@ -333,8 +333,15 @@ main section .columna:hover .marco, main section .columna:hover img {
 }
 .left-column {
     width: 25%;
+    padding: 0 2.5em;
 }
-
+.left-column li {
+    padding: 1em;
+    border-radius: 0.3em;
+}
+.left-column li:first-child {
+    background-color: var(--color-principal);
+}
 .left-column li a{
     text-decoration: none;
     color: white;
