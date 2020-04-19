@@ -416,7 +416,7 @@ main section .columna:hover .marco, main section .columna:hover img {
     height: 2em;
     background-color: var(--color-principal);
     text-align: center;
-    line-height: 2em;
+    line-height: 2.5em;
 }
 .up-button a {
     text-decoration: none;
@@ -437,7 +437,20 @@ main section .columna:hover .marco, main section .columna:hover img {
     .left-column {
         width: 100%;
     }
+    .right-column article {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .right-column img {
+        width: 100%;
+    }
+    .right-column article div {
+        padding-top: 2em;
+    }
     .up-button {
         display: block;
+    }
+    footer .container {
+        padding-left: 6em;
     }
 }
