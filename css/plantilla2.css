@@ -429,3 +429,15 @@ main section .columna:hover .marco, main section .columna:hover img {
     left: 0.5em;
     font-size: 1em;
 }
+@media(min-width: 48.000em){
+    .menu {
+        flex-wrap: wrap;
+        padding: 0 5em;
+    }
+    .left-column {
+        width: 100%;
+    }
+    .up-button {
+        display: block;
+    }
+}
