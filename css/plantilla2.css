@@ -404,3 +404,25 @@ main section .columna:hover .marco, main section .columna:hover img {
 .right-column a {
     font-weight: bold;
 }
+.up-button {
+    display: none;
+    position: fixed;
+    right: 0.625em;
+    bottom: 0.625em;
+    width: 2em;
+    height: 2em;
+    background-color: var(--color-principal);
+    text-align: center;
+    line-height: 2em;
+}
+.up-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+.up-button i {
+    left: 0.5em;
+    font-size: 1em;
+}
