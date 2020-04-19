@@ -346,3 +346,24 @@ main section .columna:hover .marco, main section .columna:hover img {
     text-decoration: none;
     color: white;
 }
+.left-column article {
+    padding: 5rem 0 ;
+}
+.left-column h3{
+    color: white;
+    font-size: 1.25em;
+    padding-bottom: 0.5em;
+}
+.left-column .underline {
+    position: absolute;
+    width: 5em;
+    margin: -1em auto;
+    color: var(--color-principal);
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.left-column p {
+    color: white;
+    padding-top: 0.5em;
+    line-height: 2em;
+}
