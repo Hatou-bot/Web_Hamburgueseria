@@ -388,7 +388,7 @@ main section .columna:hover .marco, main section .columna:hover img {
     vertical-align: top;
 }
 
-.right-column h3{
+.right-column h3 {
     margin-top: 0;
     padding-bottom: 1em;
     width: 100%;
@@ -429,10 +429,9 @@ main section .columna:hover .marco, main section .columna:hover img {
     left: 0.5em;
     font-size: 1em;
 }
-@media(min-width: 48.000em){
+@media(max-width: 48.000em){
     .menu {
         flex-wrap: wrap;
-        padding: 0 5em;
     }
     .left-column {
         width: 100%;
