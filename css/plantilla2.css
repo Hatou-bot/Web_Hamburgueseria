@@ -387,6 +387,7 @@ main section .columna:hover .marco, main section .columna:hover img {
 
 .right-column h3{
     margin-top: 0;
+    padding-bottom: 1em;
     width: 100%;
     display: inline;
     font-size: 1.25em;
@@ -396,4 +397,10 @@ main section .columna:hover .marco, main section .columna:hover img {
     font-size: 1.25em;
     font-weight: bold;
     color: var(--color-principal);
+}
+.right-column p {
+    padding: 1em 0 0.5em 0;
+}
+.right-column a {
+    font-weight: bold;
 }
