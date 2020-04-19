@@ -367,3 +367,33 @@ main section .columna:hover .marco, main section .columna:hover img {
     padding-top: 0.5em;
     line-height: 2em;
 }
+.right-column article {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 1.5em;
+}
+.right-column img {
+    height: 100%;
+    width: 20%;
+    padding: 0 1em;
+}
+.right-column article div {
+    width: 100%;
+    color: white;
+    padding: 0 1em;
+    vertical-align: top;
+}
+
+.right-column h3{
+    margin-top: 0;
+    width: 100%;
+    display: inline;
+    font-size: 1.25em;
+}
+.right-column span {
+    margin-left: 20%;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: var(--color-principal);
+}
