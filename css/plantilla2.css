@@ -37,7 +37,7 @@ img {
     max-width: var(--ancho-maximo);
     margin: 0 auto;
 }
-.container-fluid { /*esta la vamos a usar en el main*/
+.container-fluid { 
     width: 100%;
     background-color: var(--color-secundario);
 }
@@ -168,7 +168,7 @@ footer a:hover {
     background-size: cover;
     background-position: center;
     background-color: #777777;
-    background-blend-mode: multiply; /*multiplica la imagen con el color de fondo*/
+    background-blend-mode: multiply; 
     display: flex;
     align-content: center;
     flex-direction: column;
